@@ -1,4 +1,4 @@
-cd %~dp0
+cd C:\Windows
 AMIDEWINx64.EXE /SU auto
 AMIDEWINx64.EXE /SS "Default string"
 AMIDEWINx64.EXE /SV "1.0"
