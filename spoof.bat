@@ -21,11 +21,4 @@ AMIDEWINx64.EXE /SK "System Serial Number"
 
 
 
-cls
-net stop winmgmt /y
-net start winmgmt /y
-sc stop winmgmt
-timeout 1
-sc start winmgmt
-timeout 1
 exit
